@@ -1,0 +1,9 @@
+.fish__image {
+  height: 15rem;
+}
+
+.fish__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+}

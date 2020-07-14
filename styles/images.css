@@ -1,0 +1,17 @@
+.location__image {
+  margin: 5rem 12rem;
+  border-radius: 50%;
+}
+
+.fish__image {
+  margin: 5rem;
+  border-radius: 50%;
+  height: 22rem;
+  width: 30rem;
+}
+
+.siteLogo {
+  height: 8rem;
+  width: 13rem;
+  border-radius: 50%;
+}

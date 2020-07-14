@@ -1,0 +1,26 @@
+@import "./fish.css";
+@import "./quotes.css";
+@import "./images.css";
+
+.body {
+  background-color: aqua;
+}
+
+#container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+}
+
+.tips {
+  border: 2px dashed black;
+  padding: 1.5rem;
+  margin-right: 10rem;
+}
+
+.siteTitle {
+  margin-left: 13rem;
+  margin-top: 3rem;
+}
