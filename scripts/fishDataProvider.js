@@ -22,4 +22,11 @@ const fishCollection = [
     length: "25 feet",
     location: "Great Barrier Reef",
   },
-];
+]
+
+export const useFish = () => {
+  // slice to return copy of fishCollection
+  return fishCollection.slice()
+}
+
+export const addFish = (fish) => {}
