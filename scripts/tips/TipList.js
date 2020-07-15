@@ -3,13 +3,13 @@ import { TipAsHTML } from "./Tip.js"
 
 export const TipList = () => {
   //gets reference to element on the DOM
-  const contentElementTip = document.querySelector(".tip")
+  const contentElementTip = document.querySelector(".content--right")
 
   // collection of tip from TipDataProvider
   const tips = useTips()
 
   let tipHTMLRepresentations = ""
-  for (const currentTipObj of tipCollection) {
+  for (const currentTipObj of tips) {
     tipHTMLRepresentations += TipAsHTML(currentTipObj)
   }
 
