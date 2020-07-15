@@ -1,6 +1,8 @@
 .location__image {
   margin: 5rem 12rem;
   border-radius: 50%;
+  height: 22rem;
+  width: 30rem;
 }
 
 .fish__image {
@@ -14,4 +16,9 @@
   height: 8rem;
   width: 13rem;
   border-radius: 50%;
+}
+
+.location__name {
+  margin: 2rem;
+  font-size: 2rem;
 }

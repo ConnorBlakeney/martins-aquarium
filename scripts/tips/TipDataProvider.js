@@ -11,7 +11,7 @@ const tipCollection = [
 ]
 
 export const useTips = () => {
-  // slice to return copy of fishCollection
+  // slice to return copy of tipCollection
   return tipCollection.slice()
 }
 
