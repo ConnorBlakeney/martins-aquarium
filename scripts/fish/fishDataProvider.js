@@ -5,6 +5,7 @@ const fishCollection = [
     species: "Blue Tang",
     length: "4 inches",
     location: "Great Barrier Reef",
+    image: "./images/blue-tang.jpg",
   },
 
   {
@@ -13,6 +14,7 @@ const fishCollection = [
     species: "Clownfish",
     length: "5 inches",
     location: "Great Barrier Reef",
+    image: "./images/clown-fish.jpg",
   },
 
   {
@@ -21,5 +23,13 @@ const fishCollection = [
     species: "Great White Shark",
     length: "25 feet",
     location: "Great Barrier Reef",
+    image: "./images/great-white-shark.jpeg",
   },
-];
+]
+
+export const useFish = () => {
+  // slice to return copy of fishCollection
+  return fishCollection.slice()
+}
+
+export const addFish = (fish) => {}
