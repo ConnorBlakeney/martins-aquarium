@@ -1,3 +1,3 @@
-import { LocationList } from "./LocationList.js"
+import { LocationList } from "./locationList.js"
 
 LocationList()
