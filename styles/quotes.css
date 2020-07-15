@@ -1,6 +1,11 @@
 .quotes {
   border: 2px dashed black;
   padding: 1.5rem;
-  margin: 2rem;
+  margin: auto 4rem;
   display: flex;
+  flex-direction: column;
+}
+
+.quote__author {
+  margin: 1rem;
 }

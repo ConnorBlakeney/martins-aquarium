@@ -1,11 +1,11 @@
-import { useLocation } from "./LocationDataProvider.js"
-import { LocationAsHTML } from "./Location.js"
+import { useLocation } from "./locationDataProvider.js"
+import { LocationAsHTML } from "./location.js"
 
 export const LocationList = () => {
   //gets reference to element on the DOM
   const contentElementLocation = document.querySelector(".locations")
 
-  // collection of tip from LocationDataProvider
+  // collection of locations from LocationDataProvider
   const locations = useLocation()
 
   let locationHTMLRepresentations = ""
