@@ -15,4 +15,6 @@ export const useTips = () => {
   return tipCollection.slice()
 }
 
-export const addTip = (tip) => {}
+export const addTip = (tip) => {
+  tipCollection.push(tip)
+}
